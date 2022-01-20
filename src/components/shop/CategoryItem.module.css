@@ -1,0 +1,27 @@
+.item h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  align-items: center;
+}
+
+.item p {
+  color: #3a3a3a;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.image {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+}

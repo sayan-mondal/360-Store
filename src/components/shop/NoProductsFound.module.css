@@ -1,0 +1,34 @@
+.noproducts {
+  height: 20rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noproducts p {
+  color: #adcccc;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #1f4b9e;
+  border: 1px solid #0a0883;
+  color: white;
+  font-size: 2rem;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.button:hover,
+.button:active {
+  background-color: #1b0e64;
+  border-color: #0e065e;
+}
